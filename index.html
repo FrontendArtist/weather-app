@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div id="loader-box"></div>
+    <div id="modal">
+      <h1>+</h1>
+      <h2></h2>
+    </div>
+    <main>
+      <section id="now-weather">
+        <div id="search-box">
+          <img src="/img/619.png" alt="loc" id="location" />
+          <input
+            placeholder="enter city"
+            type="text"
+            name="search-city"
+            id="search-input"
+          />
+          <button id="search-button">search</button>
+        </div>
+        <div id="show-weather"></div>
+      </section>
+      <section id="weak-weather"></section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
